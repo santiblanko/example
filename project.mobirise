@@ -1,0 +1,1291 @@
+{
+  "settings": {
+    "name": "NewSite-03-20_1035",
+    "currentPage": "herramienta.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#fac51c",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 26,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#fac51c!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-personal-data-color-219x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HERRAMIENTA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://mobirise.com/\">INICIAR SESIÓN</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">CREAR CUENTA</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mockdrop-working-hard-2000x1333.jpg",
+            "bgColor": "#f3c649",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "¡Haz que la ley de protección de Datos personales no te impida dormir!",
+          "text": "Somos su solución de negocios alrededor de las exigencias de la Ley 1581 de 2012 en<br>Colombia.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PORTAFOLIO COMPLETO</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">COMIENZA GRATIS CON LA HERRAMIENTA</a> "
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-2",
+          "_params": {
+            "imageSize": "70",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=GUHhS2OdIEs",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "¿QUE HACEMOS?",
+          "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">COMIENZA GRATIS<br></a>"
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "#fac51c",
+              "border-color": "#fac51c"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-3",
+          "_params": {
+            "iconsBgColor": "#fac51c",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "website-theme",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000000"
+            }
+          },
+          "title1": "",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Diseño e implementación de procesos de gestión de los datos de los Titulares de los Datos<br><span style=\"font-size: 1rem; line-height: 1.5;\">en la Empresa</span><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "devices",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000000"
+            }
+          },
+          "title2": "",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Gestión de autorizaciones de los Titulares con herramientas tecnológicas.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000000"
+            }
+          },
+          "title3": "",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Gestión eficaz de las PQRs de los Titulares de los Datos.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "question",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#000000"
+            }
+          },
+          "title4": "",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Atención eficaz a los requerimientos de los reguladores",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-9",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/documents1-2000x1500-1.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#222",
+            "inverse": true,
+            "showButtons": false,
+            "showTitle": true,
+            "showText": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">VER VIDEO</a>",
+          "title": "¿Por qué deben gestionarse los datos de los Titulares de los Datos en las Empresas<span style=\"font-size: 3rem; line-height: 1.1;\">?</span>",
+          "text": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-a",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote>La Ley 1581 de 2012 se estableció con el objeto de desarrollar el derecho constitucional&nbsp;<span style=\"font-size: 1.09rem; line-height: 1.5;\">que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se&nbsp;</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">hayan recogido sobre ellas en bases de datos o archivos, y los demás derechos, libertades&nbsp;</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">y garantías constitucionales a que se refiere el artículo 15 de la Constitución Política; así&nbsp;</span><span style=\"font-size: 1.09rem; line-height: 1.5;\">como el derecho a la información consagrado en el artículo 20 de la misma.</span></blockquote>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-4",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "<p>¿QUE SANCIONES SE PUEDEN APLICAR SI HAY INCUMPLIMIENTO DE LA NORMATIVIDAD?</p><p></p>",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-5",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Multas de carácter personal e institucional hasta por el equivalente de dos mil (2.000)&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">salarios mínimos mensuales legales vigentes al momento de la imposición de la sanción.&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Las multas podrán ser sucesivas mientras subsista el incumplimiento que las originó;&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Suspensión de las actividades relacionadas con el Tratamiento hasta por un término de&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">seis (6) meses. En el acto de suspensión se indicarán los correctivos que se deberán&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">adoptar;</span></p>",
+          "text2": "<p>Cierre temporal de las operaciones relacionadas con el Tratamiento una vez transcurrido&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">el término de suspensión sin que se hubieren adoptado los correctivos ordenados por la</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Superintendencia de Industria y Comercio;&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Cierre inmediato y definitivo de la operación que involucre el Tratamiento de datos&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">sensibles.</span></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-6",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/documents1-2000x1500.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "¿Que son las autorizaciones?",
+          "text": "<p>Son el Consentimiento previo, expreso e informado del Titular para llevar a cabo el t<span style=\"font-size: 1.07rem; line-height: 1.5;\">ratamiento de datos personales. Incluye a todas las personas naturales con las cuales&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">tenga relación la empresa.</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "font-size": "22px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            ".card-footer > div": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "<p>Ingeniero Electrónico de la Universidad&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">Pontificia Bolivariana de Medellín&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">(U.P.B.).</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">Especialista en Gestión de la Innovación&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Tecnológica de la U.P.B.</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">MBA de Universidad Eafit de Medellín.</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">+20 años de experiencia en gestión de&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">tecnologías de información y&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">comunicaciones.</span></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/captura-de-pantalla-2017-03-10-a-las-10-160x160.png",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Juan Carlos Acevedo Maldonado",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>Ingeniero de Sistemas (Universidad&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">EAFIT)&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Certificado en disciplinas de gestión ITIL&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">y tecnologías empresariales.</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">Arquitectura de Sistemas de&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Información y Empresarial</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">Diplomado de Gerencia de Mercadeo y&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Ventas en Empresas de Servicio</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">+20 años de experiencia en gestión de&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">tecnologías de información, desarrollo y&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">consultoría.</span></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/captura-de-pantalla-2017-03-20-a-las-10-160x155.png",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Rodrigo Ramírez C",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>Ingeniero Electrónico de la Universidad&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">Pontificia Bolivariana de Medellín&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">(U.P.B.).</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">MBA de Universidad De Purdue USA.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">+25 años de experiencia en gestión de&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">tecnologías de información y Seguridad&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">de la Informacion.</span></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/captura-de-pantalla-2017-03-10-a-las-10-148x160.png",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Joaquin F. Yepes M",
+              "authorBio": ""
+            }
+          ],
+          "_anchor": "testimonials1-7",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "1",
+            "overlayColor": "#b8312f",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "SOCIOS",
+          "subtitle": "<span style=\"font-style: normal;\">La empresa fue fundada en el 2017 por ingenieros con amplia experiencia&nbsp;</span>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-8",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 PersonalData.co."
+        }
+      ]
+    },
+    "servicios.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead DIV": {
+              "color": "#ffffff"
+            },
+            ".lead": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1422.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "NUESTROS SERVICIOS",
+          "text": "Nos apoyamos en&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">herramientas tecnológicas qu</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">e faciliten la ejecución de la operación, y un equipo humano&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">altamente especializado.</span>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CONTACTENOS</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#fac51c!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-b",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-personal-data-color-219x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HERRAMIENTA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://mobirise.com/\">INICIAR SESIÓN</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">CREAR CUENTA</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "procesos de gestión de los datos de de la persona natural en custodia por la empresa. Acompañamos a nuestros clientes en el diseño y la implementación del proceso de gestión de los datos personales en las organizaciones.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Gestión de Autorizaciones: administramos, a través de tecnologías móviles y web, el ciclo de vida de las autorizaciones de los titulares de los datos personales (personas naturales cuyos datos poseen en custodia las empresas), cumpliendo con los derechos provistos por la Ley a los Titulares de los datos.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Gestión de Peticiones, Quejas y Reclamos (PQRs) de los Titulares de los Datos Personales (de la persona natural cuyos datos están en custodia por la empresa), y los entes regulatorios. Apoyamos el proceso de recepción, y nos encargamos del tratamiento de los requerimientos de los titulares de los datos personales y los entes regulatorios. A través de nuestra solución de PQRs posibilitamos un manejo eficaz de todas las PQRs que alrededor de la gestión de los datos de los titulares, puedan ocasionarse.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Monitoreo y Control a los procesos de gestión alrededor de la norma. Definimos y corremos los procesos de monitoreo y control, velando por la adecuada ejecución del<br>tratamiento de los datos personales en la Empresa, planteando acciones de evolución y mejoramiento continuo<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-e",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">MÁS INFORMACIÓN</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-c",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 PersonalData.co."
+        }
+      ]
+    },
+    "contacto.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#fac51c!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-g",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-personal-data-color-219x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HERRAMIENTA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://mobirise.com/\">INICIAR SESIÓN</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">CREAR CUENTA</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-h",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 PersonalData.co."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-i",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Formulario de contacto",
+          "subtitle": "",
+          "form": {
+            "action": "santiago.blanco.vilchez@gmail.com",
+            "alerts": {
+              "success": "Proximamente nos pondremos en contacto con usted."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Nombre*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefono"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensaje"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVARI</a>"
+        }
+      ]
+    },
+    "herramienta.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#fac51c!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-j",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-personal-data-color-219x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HERRAMIENTA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://mobirise.com/\">INICIAR SESIÓN</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://mobirise.com/\">CREAR CUENTA</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-k",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 PersonalData.co."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-m",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">DOWNLOAD FOR WIN</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-p",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<h4>Solución para el tratamiento de las Peticiones, Quejas y Reclamos – PD-PQRs. Con la solución podra:</h4><p>Realizar la gestión unificada de las PQRs que abran los dueños de los datos personales (titulares datos personales), y de los entes regulatorios a través de solución web y móvil.</p><p>Realizar la asignación de los casos abiertos a los roles responsables de la resolución de los mismos en la empresa.</p><p>Llevar a cabo la validación del tratamiento dado a los casos por nuestros asesores jurídicos.</p><p>Establecer alarmas y tareas para la eficaz gestión de los casos.</p><p> Obtener reportes en línea de la efectividad de la gestión .</p>",
+          "text2": "<h4>Solución para la Gestión de las Autorizaciones. PD-GAT. Con la solución podrá:</h4><ul><li>Capturar las autorizaciones que desde la página web de la Empresa se obtengan, o&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">aquellas que se capturen desde los dispositivos móviles por las personas de campo&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">de la empresa.</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Captura biométrica (firma y audio) o manual de las autorizaciones de los titulares&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">de los datos personales.</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;Almacenar dichas autorizaciones en un Data Center en la nube, cumpliendo los&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">requisitos de la ley en torno al manejo de los datos personales.&nbsp;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Reportar sobre la dinámica de cambio (modificación, borrado, adición) de campos&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">según petición de los Titulares de los Datos Personales.&nbsp;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">Control permanente de cambios y modificaciones a los datos de los Titulares para&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">garantizar derechos de los titulares de los datos personales.</span></li></ul>"
+        },
+        {
+          "_inherit": "pricing-table1",
+          "_styles": {
+            ".mbr-plan-header, .mbr-plan-body": {
+              "background-color": "#f4f4f4"
+            },
+            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
+              "color": "#28262b"
+            },
+            ".mbr-plan": {
+              "border-color": "#e8e8e8"
+            },
+            ".mbr-plan .list-group-item": {
+              "border-color": "#cfcfcf"
+            },
+            ".mbr-price-figure": {
+              "font-size": "24px"
+            },
+            ".mbr-price-term": {
+              "font-size": "24px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-l",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "showButtons": true,
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": "hidden"
+          },
+          "title": "NUESTROS PRECIOS",
+          "subtitle": "",
+          "label1": "HOT!",
+          "title1": "FREE",
+          "subtitle1": "Description",
+          "currency1": "",
+          "price1": "$0",
+          "period1": "/mes.",
+          "description1": "Hasta 50&nbsp;<span style=\"font-size: 0.875rem; line-height: 1.79;\">Autorizaciones&nbsp;</span><span style=\"font-size: 0.875rem; line-height: 1.79;\">cargadas al sistema</span><br><span style=\"font-size: 0.875rem; line-height: 1.79;\">y permanencia&nbsp;</span><span style=\"font-size: 0.875rem; line-height: 1.79;\">máxima de 1 año</span><br>",
+          "list1": "<ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Usuarios ilimitados</span><br><span style=\"font-size: 14px; line-height: 50px;\">Carga de Autorización&nbsp;</span></ul><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Refrendación de&nbsp;</span><span style=\"font-size: 14px; line-height: 50px;\">Autorización a través de&nbsp;</span><span style=\"font-size: 14px; line-height: 50px;\">firma manuscrita o audio o&nbsp;</span><span style=\"font-size: 14px; line-height: 50px;\">expresión inequívoca</span></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\" data-toolbar=\"-mbrBtnMove\">EMPEZAR</a>",
+          "label2": "HOT!",
+          "title2": "SMALL BUSINESS",
+          "subtitle2": "Description",
+          "currency2": "",
+          "price2": "$40.000/mes + IVA",
+          "period2": ".",
+          "description2": "Hasta 470&nbsp;<span style=\"font-size: 0.875rem; line-height: 1.79;\">autorizaciones</span><br><span style=\"font-size: 0.875rem; line-height: 1.79;\">cargadas al sistema</span><br>",
+          "list2": "<ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Usuarios ilimitados</span><br><span style=\"font-size: 14px; line-height: 50px;\">Carga de Autorización</span><br><span style=\"font-size: 14px; line-height: 50px;\">Refrendación de Autorización a través de firma manuscrita o audio o expresión inequívoca</span></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\" data-toolbar=\"-mbrBtnMove\">EMPEZAR</a>",
+          "label3": "HOT!",
+          "title3": "LARGE BUSINESS",
+          "subtitle3": "Description",
+          "currency3": "",
+          "price3": "$85a + IVA<br>",
+          "period3": "",
+          "description3": "Cobro mínimo de&nbsp;<span style=\"font-size: 0.875rem; line-height: 1.79;\">$ 40.000 </span><br><span style=\"font-size: 0.875rem; line-height: 1.79;\">+ IVA/mes</span><br>",
+          "list3": "<ul class=\"list-group list-group-flush\"><p><span style=\"font-size: 14px; line-height: 50px;\">Usuarios ilimitado</span></p><p><span style=\"font-size: 14px; line-height: 50px;\">Carga de Autorización</span></p><p><span style=\"font-size: 14px; line-height: 50px;\">Refrendación de Autorización a través de firma manuscrita o audio o expresión inequívoca</span></p></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\" data-toolbar=\"-mbrBtnMove\">EMPEZAR</a>",
+          "label4": "HOT!",
+          "title4": "ULTIMATE",
+          "subtitle4": "Description",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "/mo.",
+          "description4": "More details",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>"
+        }
+      ]
+    }
+  }
+}
