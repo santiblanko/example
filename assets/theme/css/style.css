@@ -18,6 +18,15 @@
 .bg-primary {
   background-color: #c0a375 !important; }
 
+.bg-pistach {
+  background-color: #41A85F !important;
+  color:white !important;
+}
+
+.bg-blue {
+  background-color: #2969B0 !important;
+}
+
 .bg-success {
   background-color: #90a878 !important; }
 
@@ -755,7 +764,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   min-height: 100vh; }
 
 .mbr-overlay {
-  background-color: #b8312f;
+  background-color: #E25041;
   bottom: 0;
   left: 0;
   opacity: 0.5;

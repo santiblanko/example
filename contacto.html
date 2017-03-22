@@ -85,7 +85,7 @@
                                 </div>
                                 <div class="col-xs-12 col-md-4">
                                     <div class="form-group">
-                                        <label class="form-control-label" for="form1-i-phone">Telefono</label>
+                                        <label class="form-control-label" for="form1-i-phone">Teléfono</label>
                                         <input type="tel" class="form-control" name="phone" data-form-field="Phone" id="form1-i-phone">
                                     </div>
                                 </div>
@@ -95,7 +95,37 @@
                                 <textarea class="form-control" name="message" rows="7" data-form-field="Message" id="form1-i-message"></textarea>
                             </div>
                             <div>
-                                <small>Autorizo expresamente a PersonalData.co quien, actuando en calidad de Responsable del
+
+                            <div class="form-group">
+
+                                <label>
+                                    <input style="display: inline-block;" type="checkbox" name="check" required> Acepto condiciones de uso deacuerdo a la ley 1581 de 2012.<small><a data-toggle="modal" data-target="#myModal" href="#"> (más información)</a></small>
+                                </label>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary">ENVIAR</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-h" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+        <div class="container">
+            <p class="text-xs-center">Copyright (c) 2017 PersonalData.co.</p>
+        </div>
+    </footer>
+
+<div class="modal fade"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" style="width: 80%;" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Terminos y condiciones</h4>
+      </div>
+      <div class="modal-body">
+      <small>Autorizo expresamente a PersonalData.co quien, actuando en calidad de Responsable del
 
 Tratamiento de Datos Personales, está recolectando información personal para el
 
@@ -139,8 +169,6 @@ entre otros);
 
 mandatos judiciales o legales; 
 
-7
-
 • Registrar sus datos personales en los sistemas de información de PersonalData y en sus
 
 bases de datos comerciales y operativas; 
@@ -150,20 +178,15 @@ bases de datos comerciales y operativas; 
 necesarias para desarrollar el objeto social de PersonalData con el propósito de su uso
 
 para contacto posterior.</small>
-<br>
-                                <button type="submit" class="btn btn-primary">ENVIAR</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-h" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
-        <div class="container">
-            <p class="text-xs-center">Copyright (c) 2017 PersonalData.co.</p>
-        </div>
-    </footer>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/tether/tether.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
